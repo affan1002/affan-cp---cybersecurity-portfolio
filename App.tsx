@@ -1,4 +1,3 @@
-import React from 'react';
 import { DATA } from './constants';
 import { GithubIcon, LinkedinIcon, MailIcon, LinkIcon, DownloadIcon } from './components/Icons';
 import { Section } from './components/Section';
@@ -28,15 +27,6 @@ const App: React.FC = () => {
               <a href="/Affan_CP_CV.pdf" download="Affan_CP_CV.pdf" className="text-slate-400 hover:text-teal-300 transition-colors" aria-label="Download CV">
                 <DownloadIcon className="h-6 w-6" />
               </a>
-            </div>
-            <div className="mt-12 hidden lg:block">
-              <iframe
-                src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4029843"
-                style={{ border: 'none', width: '300px', height: '170px' }}
-                title="TryHackMe Profile Badge"
-                scrolling="no"
-                frameBorder="0"
-              ></iframe>
             </div>
           </div>
           <footer className="text-sm text-slate-500 mt-8">
